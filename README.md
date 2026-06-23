@@ -2,6 +2,8 @@
 
 REST API для управления задачами с аутентификацией на JWT и PostgreSQL.
 
+**GitHub:** https://github.com/TiTrix5/task-management-api
+
 ## Технологический стек
 
 - Java 17
@@ -81,7 +83,7 @@ docker compose up --build
 ```
 
 Приложение: `http://localhost:8080`  
-PostgreSQL: `localhost:5432` (user: `taskuser`, password: `taskpass`, db: `taskdb`)
+PostgreSQL: `localhost:15432` (user: `taskuser`, password: `taskpass`, db: `taskdb`)
 
 ## Локальный запуск без Docker
 
